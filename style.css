@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    max-width: 900px;
+    position: relative;
+}
+.first {
+    padding: 30px 20px 30px 20px;
+    min-height: 950px;
+    text-align: center;
+    background-color: aqua;
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0 20px 0;
+    background-color: red;
+}
+.popup {
+    width: 200px;
+    margin: 0 auto;
+    position: relative;
+    display: none;
+}
+.email {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.close {
+    position: absolute;
+    right: 0;
+    top: -22px;
+    cursor: pointer;
+}
+
+.wrap {
+    position: absolute;
+    right: 340px;
+}
